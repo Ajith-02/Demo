@@ -60,3 +60,8 @@ height: 200px;
     width: 200px;
     position: absolute;
 }
+
+.row > * {
+    background: #8BDB81;
+    border: 1px solid red;
+}
