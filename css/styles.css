@@ -65,3 +65,11 @@ height: 200px;
     background: #8BDB81;
     border: 1px solid red;
 }
+
+.container{
+    background-color: #8BDB81;
+}
+
+.container-fluid{
+    background-color: yellow;
+}
