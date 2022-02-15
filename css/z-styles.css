@@ -1,0 +1,22 @@
+div {
+    
+    border: 1px solid;
+    position: absolute;
+  }
+  
+  .red {
+    background-color: red;
+    z-index: 1;
+   
+  }
+  .blue {
+    background-color: blue;
+    left: 20%;
+    top: 20%;
+  } 
+  .yellow {
+    background-color: yellow;
+    left: 40%;
+    top: 40%;
+    z-index: -1;
+  }

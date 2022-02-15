@@ -1,75 +1,77 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 /*----------position: relative;----------*/
-.top-container{
-    background-color: #C0D8C0;
-    border: 10px solid;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    position: relative;
+.top-container {
+  background-color: #c0d8c0;
+  border: 10px solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  position: relative;
 }
 
-.middle-container{
-    background-color: #ACB992;
-    border: 20px solid;
-    height: 200px;
-    width: 200px;
-    /* margin-left: 260px; */
-    position: relative;
-    bottom: 250px;
-    left: 250px;
+.middle-container {
+  background-color: #acb992;
+  border: 20px solid;
+  height: 200px;
+  width: 200px;
+  /* margin-left: 260px; */
+  position: relative;
+  bottom: 250px;
+  left: 250px;
 }
 
-.bottom-container{
-    background-color: #8BDB81;
-    border: 10px solid;
-    height: 200px;
-    /* margin-left: 500px; */
-    width: 200px;
-    position: relative;
-    bottom: 470px;
-    left: 500px;
+.bottom-container {
+  background-color: #8bdb81;
+  border: 10px solid;
+  height: 200px;
+  /* margin-left: 500px; */
+  width: 200px;
+  position: relative;
+  bottom: 470px;
+  left: 500px;
 }
 
 /*----------position: absolute;----------*/
-.red{
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 400px;
-    top: 1127px;
+.red {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 400px;
+  top: 1127px;
 }
 
-.blue{
-background-color: blue;
-height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 200px;
-    top: 929px;
+.blue {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  top: 929px;
 }
 
-.yellow{
-background-color: yellow;
-height: 200px;
-    width: 200px;
-    position: absolute;
+.yellow {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  position: absolute;
 }
 
 .row > * {
-    background: #8BDB81;
-    border: 1px solid red;
+  background: #8bdb81;
+  border: 1px solid red;
 }
 
-.container{
-    background-color: #8BDB81;
+.container {
+  background-color: #8bdb81;
 }
 
-.container-fluid{
-    background-color: yellow;
+.container-fluid {
+  background-color: yellow;
 }
+
+
