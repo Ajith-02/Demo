@@ -4,3 +4,4 @@ console.log(a+b);
 alert("hello");
 window.alert("Javascript");
 console.log(typeof(123));
+prompt("Enter your name");
