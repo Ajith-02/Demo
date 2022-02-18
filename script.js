@@ -20,3 +20,10 @@ var a = b;
 var b = c
 console.log("a is"+ " " + a);
 console.log("b is"+ " " + b);
+
+var msg = "hello";
+var name = "abc";
+// 
+var tweet = prompt("enter your tweet");
+var tweetCount = tweet.length;
+alert("you have written "+ tweetCount + " characters, remaining is "+ (100 - tweetCount)+ " characters");
