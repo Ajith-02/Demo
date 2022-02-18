@@ -24,6 +24,13 @@ console.log("b is"+ " " + b);
 var msg = "hello";
 var name = "abc";
 // 
-var tweet = prompt("enter your tweet");
-var tweetCount = tweet.length;
-alert("you have written "+ tweetCount + " characters, remaining is "+ (100 - tweetCount)+ " characters");
+// var tweet = prompt("enter your tweet");
+// var tweetCount = tweet.length;
+// alert("you have written "+ tweetCount + " characters, remaining is "+ (100 - tweetCount)+ " characters");
+
+var name = "abcd";
+console.log(name.slice(2,3));
+
+var tweet = prompt("enter tweet");
+var tweetCount = tweet.slice(0,10);
+alert(tweetCount);                                                                          
