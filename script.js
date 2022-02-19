@@ -31,6 +31,13 @@ var name = "abc";
 var name = "abcd";
 console.log(name.slice(2,3));
 
-var tweet = prompt("enter tweet");
-var tweetCount = tweet.slice(0,10);
-alert(tweetCount);                                                                          
+// var tweet = prompt("enter tweet");
+// var tweetCount = tweet.slice(0,10);
+// alert(tweetCount);    
+
+var yourName = prompt("enter your name");
+console.log(yourName.toUpperCase());
+// var yourName = prompt("Enter your name");
+// var enteredName = yourName.slice(0,yourName.length)
+// var firstLetter = enteredName.toUpperCase()
+// alert(firstLetter)
