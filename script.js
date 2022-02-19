@@ -40,4 +40,6 @@ console.log(name.slice(2,3));
 var yourName = prompt("Enter your name");
 var enteredName = yourName.slice(0,1)
 var firstLetter = enteredName.toUpperCase()
-alert(firstLetter)
+var restName = yourName.slice(1,yourName.length)
+var finalName = firstLetter + restName
+alert(finalName)
