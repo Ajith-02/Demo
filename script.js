@@ -41,5 +41,6 @@ var yourName = prompt("Enter your name");
 var enteredName = yourName.slice(0,1)
 var firstLetter = enteredName.toUpperCase()
 var restName = yourName.slice(1,yourName.length)
-var finalName = firstLetter + restName
+var remainLetter = restName.toLocaleLowerCase()
+var finalName = firstLetter + remainLetter
 alert(finalName)
