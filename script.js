@@ -92,3 +92,9 @@ function getMilk() {
     console.log(cost);
   }
   getOil(2);
+
+  function getBottles(money){
+      var noOfBottles = Math.round(money/5);
+console.log("No of bottles " + noOfBottles);
+  }
+  getBottles(54);
