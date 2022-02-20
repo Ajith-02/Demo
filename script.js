@@ -86,3 +86,9 @@ function getMilk() {
     console.log("moveLeft");
     console.log("enterHouse");
   }
+
+  function getOil(bottles){
+      var cost = bottles*5;
+    console.log(cost);
+  }
+  getOil(2);
