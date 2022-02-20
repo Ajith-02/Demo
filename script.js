@@ -37,10 +37,16 @@ console.log(name.slice(2,3));
 
 // var yourName = prompt("enter your name");
 // console.log(yourName.toUpperCase());
-var yourName = prompt("Enter your name");
-var enteredName = yourName.slice(0,1)
-var firstLetter = enteredName.toUpperCase()
-var restName = yourName.slice(1,yourName.length)
-var remainLetter = restName.toLocaleLowerCase()
-var finalName = firstLetter + remainLetter
-alert(finalName)
+
+
+// var yourName = prompt("Enter your name");
+// var enteredName = yourName.slice(0,1)
+// var firstLetter = enteredName.toUpperCase()
+// var restName = yourName.slice(1,yourName.length)
+// var remainLetter = restName.toLocaleLowerCase()
+// var finalName = firstLetter + remainLetter
+// alert("hello, "+finalName)
+
+var dogAge = prompt("Enter your dog age");
+var humanAge = ((dogAge - 2)*4) + 21;
+alert("Human age of your dog is "+ humanAge);
