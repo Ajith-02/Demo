@@ -17,27 +17,26 @@ var b = 8;
 
 var c = a;
 var a = b;
-var b = c
-console.log("a is"+ " " + a);
-console.log("b is"+ " " + b);
+var b = c;
+console.log("a is" + " " + a);
+console.log("b is" + " " + b);
 
 var msg = "hello";
 var name = "abc";
-// 
+//
 // var tweet = prompt("enter your tweet");
 // var tweetCount = tweet.length;
 // alert("you have written "+ tweetCount + " characters, remaining is "+ (100 - tweetCount)+ " characters");
 
 var name = "abcd";
-console.log(name.slice(2,3));
+console.log(name.slice(2, 3));
 
 // var tweet = prompt("enter tweet");
 // var tweetCount = tweet.slice(0,10);
-// alert(tweetCount);    
+// alert(tweetCount);
 
 // var yourName = prompt("enter your name");
 // console.log(yourName.toUpperCase());
-
 
 // var yourName = prompt("Enter your name");
 // var enteredName = yourName.slice(0,1)
@@ -52,12 +51,11 @@ console.log(name.slice(2,3));
 // alert("Human age of your dog is "+ humanAge);
 
 var num = 12;
-var ans = (num /= 3)
-console.log(ans)
+var ans = (num /= 3);
+console.log(ans);
 
 var mod = 16 % 4;
-console.log(mod)
-
+console.log(mod);
 
 // function
 // function getMilk(){
@@ -65,36 +63,70 @@ console.log(mod)
 // }
 // getMilk();
 
+function getMilk() {
+  console.log("leaveHouse");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveUp");
+  console.log("moveRight");
+  console.log("moveRight");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveDown");
+  console.log("moveLeft");
+  console.log("moveLeft");
+  console.log("enterHouse");
+}
 
-function getMilk() {   
-    console.log("leaveHouse");
-    console.log("moveRight");
-    console.log("moveRight");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveUp");
-    console.log("moveRight");
-    console.log("moveRight");
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveDown");
-    console.log("moveLeft");
-    console.log("moveLeft");
-    console.log("enterHouse");
+function getOil(bottles) {
+  var cost = bottles * 5;
+  console.log(cost);
+}
+getOil(2);
+
+function getBottles(money) {
+  var noOfBottles = Math.round(money / 5);
+  console.log("No of bottles " + noOfBottles);
+}
+getBottles(54);
+
+function lifeInWeeks(age) {
+  var days = (365 * 90) - (365 * age);
+  var weeks = (52 * 90) - (52 * age);
+  var months = (12 * 90) - (12 * age);
+  console.log(days);
+  console.log(weeks);
+  console.log(months);
+  console.log("you have "+ days+" days, " + weeks + " weeks, " + "and "+ months +" months left");
+}
+lifeInWeeks(56);
+
+function lifeInWeek(age) {
+    var yearsRemaining = 30 - age
+    var days = yearsRemaining*365
+    var weeks = yearsRemaining*52
+    var months = yearsRemaining*12
+    
+    console.log("you have "+ days+" days, " + weeks + " weeks, " + "and "+ months +" months left");
   }
+  lifeInWeek(27);
 
-  function getOil(bottles){
-      var cost = bottles*5;
-    console.log(cost);
+  function getBalance(money){
+      return money % 1.5;
   }
-  getOil(2);
+  var balance = getBalance(50);
+  console.log(balance);
 
-  function getBottles(money){
-      var noOfBottles = Math.round(money/5);
-console.log("No of bottles " + noOfBottles);
+
+
+  function getBottles(money) {
+    var noOfBottles = Math.round(money / 5);
+    console.log("No of bottles " + noOfBottles);
   }
   getBottles(54);
