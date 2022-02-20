@@ -47,6 +47,42 @@ console.log(name.slice(2,3));
 // var finalName = firstLetter + remainLetter
 // alert("hello, "+finalName)
 
-var dogAge = prompt("Enter your dog age");
-var humanAge = ((dogAge - 2)*4) + 21;
-alert("Human age of your dog is "+ humanAge);
+// var dogAge = prompt("Enter your dog age");
+// var humanAge = ((dogAge - 2)*4) + 21;
+// alert("Human age of your dog is "+ humanAge);
+
+var num = 12;
+var ans = (num /= 3)
+console.log(ans)
+
+var mod = 16 % 4;
+console.log(mod)
+
+
+// function
+// function getMilk(){
+//     console.log("got milk")
+// }
+// getMilk();
+
+
+function getMilk() {   
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+  }
