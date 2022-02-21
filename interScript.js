@@ -16,8 +16,46 @@ var n = Math.round(n * 6) + 1;
 console.log(n);
 
 /* love calculator */
+// var yourName = prompt("Enter your name");
+// var partnerName = prompt("Enter your partner name");
+// var loveCalculate = Math.random();
+// var loveCalculate = Math.round(loveCalculate * 100) + 1;
+// alert(yourName + "  💖 "+ partnerName+ " love matches " + loveCalculate);
+
+/* love calculator using condition */
+// var yourName = prompt("Enter your name");
+// var partnerName = prompt("Enter your partner name");
+// var loveCalculate = Math.random();
+// var loveCalculate = Math.round(loveCalculate * 100) + 1;
+
+// if (loveCalculate > 75) {
+//     alert(yourName + "  💖 "+ partnerName+ " love matches wow super " + loveCalculate);
+// } else {
+//     alert(yourName + " " + partnerName+ " love matches " + loveCalculate);
+// }
+
+/* checking equality */
+var a = 1;
+var b = "1";
+if(a ===b){
+    console.log("yes");
+}else{
+    console.log("no");
+}
+
+
 var yourName = prompt("Enter your name");
 var partnerName = prompt("Enter your partner name");
 var loveCalculate = Math.random();
 var loveCalculate = Math.round(loveCalculate * 100) + 1;
-alert(yourName + "  💖 "+ partnerName+ " love matches " + loveCalculate);
+
+if (loveCalculate > 75) {
+    alert(yourName + "  💖 "+ partnerName+ " love matches wow super " + loveCalculate);
+} 
+if(loveCalculate > 30 && loveCalculate <= 75){
+    alert(yourName + " 😍" + partnerName+ " love matches " + loveCalculate);
+
+}if(loveCalculate <= 30)
+ {
+    alert(yourName + " 👍" + partnerName+ " love matches " + loveCalculate);
+}
