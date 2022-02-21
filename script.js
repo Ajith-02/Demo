@@ -124,9 +124,43 @@ function lifeInWeek(age) {
   console.log(balance);
 
 
-
+/*No of bottles and remaining amount */
+/* method 1 */
   function getBottles(money) {
     var noOfBottles = Math.round(money / 5);
     console.log("No of bottles " + noOfBottles);
+    return money % 5
   }
-  getBottles(54);
+ var change = getBottles(5);
+console.log("the remaining balance is " + change);
+
+/* method 2 */
+function getBottles(money) {
+  // var noOfBottles = Math.round(money / 5);
+  console.log("No of bottles " + calBottles(money , 5));
+  return money % 5;
+}
+function calBottles(startingMoney, costPerBottle){
+  var numberOfBottles = Math.round(startingMoney / costPerBottle);
+return numberOfBottles;
+}
+getBottles(5)
+
+
+
+/* method 3 */
+function getBottles(money) {
+  // var noOfBottles = Math.round(money / 5);
+  console.log("No of bottles " + calBottles(money , 5));
+  return money % 5;
+}
+function calBottles(startingMoney, costPerBottle){
+  var numberOfBottles = Math.round(startingMoney / costPerBottle);
+return numberOfBottles;
+}
+getBottles(5)
+
+
+
+
+/* */
