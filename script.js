@@ -152,15 +152,43 @@ getBottles(5)
 function getBottles(money) {
   // var noOfBottles = Math.round(money / 5);
   console.log("No of bottles " + calBottles(money , 5));
-  return money % 5;
+  return calchange(money, 5);
 }
 function calBottles(startingMoney, costPerBottle){
   var numberOfBottles = Math.round(startingMoney / costPerBottle);
 return numberOfBottles;
 }
-getBottles(5)
+function calchange(startingAmount, costPerBottle){
+  var change = startingAmount % costPerBottle;
+  return change;
+}
+console.log("Master the remaining balance is "+ getBottles(11))
 
 
 
 
-/* */
+/* method 4 */
+function getBottles(money, costPerBottle) {
+  // var noOfBottles = Math.round(money / 5);
+  console.log("No of bottles " + calBottles(money , costPerBottle));
+  return calchange(money, costPerBottle);
+}
+function calBottles(startingMoney, costPerBottle){
+  var numberOfBottles = Math.round(startingMoney / costPerBottle);
+return numberOfBottles;
+}
+function calchange(startingAmount, costPerBottle){
+  var change = startingAmount % costPerBottle;
+  return change;
+}
+console.log("Master the remaining balance is "+ getBottles(100, 99.9));
+
+
+/* BMI Calculator */
+function bmiCalculator(weight, height){
+  //var bmi = weight / (height * height);
+  var bmi = weight / (Math.pow(height, 2));
+  return Math.round(bmi);
+}
+var bmi = bmiCalculator(68, 1.7);
+console.log("BMI is " + bmi);
