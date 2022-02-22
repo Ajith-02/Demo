@@ -116,11 +116,45 @@ console.log(isLeap(2012))
 //   alert("May be next time");
 // }
 
-/* Adding element */
+/* Adding element fizzBuzz */
+// var output = [];
+// var count = 1;
+
+// function fizzBuzz(){
+//   if(count % 3 === 0 && count % 5 === 0 ){
+//     output.push("FizzBuzz");
+//   }else if(count % 3 === 0){
+//     output.push("Fizz");
+//   }else if(count % 5 === 0){
+//     output.push("Buzz");
+//   }else{
+//     output.push(count);
+//   }
+
+//   count++;
+//   //or
+//   //count = count + 1;
+//   console.log(output);
+// }
+// fizzBuzz()
+
+/* random food buying */
+var names = ["Ajith", "Sarathy", "Aravind", "Krishnan"];
+function whoPaying(names){
+  var numberOfPeople = names.length;
+  var randomPersonPostiton = Math.floor(Math.random()*numberOfPeople);
+  var randomPerson = names[randomPersonPostiton];
+  return randomPerson + " is going to buy lunch";
+}
+console.log(whoPaying(names))
+
+
+/* while loop fizzBuzz */
 var output = [];
 var count = 1;
 
 function fizzBuzz(){
+  while(count <= 100){
   if(count % 3 === 0 && count % 5 === 0 ){
     output.push("FizzBuzz");
   }else if(count % 3 === 0){
@@ -134,7 +168,39 @@ function fizzBuzz(){
   count++;
   //or
   //count = count + 1;
+}
   console.log(output);
+
 }
 fizzBuzz()
 
+
+
+/* Bottle 99 to 0 */
+// var numberOfBottles = 99;
+// function remainingBottle(){
+
+
+// while (numberOfBottles >=0){
+//   var bottleWord = "bottle";
+//   if(numberOfBottles === 1){
+//     bottleWord = "bottles";
+//   }
+//   console.log(numberOfBottles + " " + bottleWord + " of beers on the wall");
+// numberOfBottles--;
+// }
+// }remainingBottle()
+
+var numberOfBottles = 99
+while (numberOfBottles >= 0) {
+    var bottleWord = "bottle";
+    if (numberOfBottles === 1) {
+        bottleWord = "bottles";
+    } 
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+    console.log(numberOfBottles + " " + bottleWord + " of beer,");
+    console.log("Take one down, pass it around,");
+	
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
+    numberOfBottles--;
+  }
