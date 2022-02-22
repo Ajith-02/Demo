@@ -106,12 +106,35 @@ console.log(isLeap(2012))
 
 
 /* Array */
-var guestList = ["Ajith", "Sarathy", "Aravind", "Krishnan"];
+// var guestList = ["Ajith", "Sarathy", "Aravind", "Krishnan"];
 
-var guestName = prompt("Enter Guest name");
+// var guestName = prompt("Enter Guest name");
 
-if (guestList.includes(guestName)){
-  alert("Welcome");
-}else{
-  alert("May be next time");
+// if (guestList.includes(guestName)){
+//   alert("Welcome");
+// }else{
+//   alert("May be next time");
+// }
+
+/* Adding element */
+var output = [];
+var count = 1;
+
+function fizzBuzz(){
+  if(count % 3 === 0 && count % 5 === 0 ){
+    output.push("FizzBuzz");
+  }else if(count % 3 === 0){
+    output.push("Fizz");
+  }else if(count % 5 === 0){
+    output.push("Buzz");
+  }else{
+    output.push(count);
+  }
+
+  count++;
+  //or
+  //count = count + 1;
+  console.log(output);
 }
+fizzBuzz()
+
