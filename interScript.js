@@ -44,18 +44,62 @@ if(a ===b){
 }
 
 
-var yourName = prompt("Enter your name");
-var partnerName = prompt("Enter your partner name");
-var loveCalculate = Math.random();
-var loveCalculate = Math.round(loveCalculate * 100) + 1;
 
-if (loveCalculate > 75) {
-    alert(yourName + "  💖 "+ partnerName+ " love matches wow super " + loveCalculate);
-} 
-if(loveCalculate > 30 && loveCalculate <= 75){
-    alert(yourName + " 😍" + partnerName+ " love matches " + loveCalculate);
+/* love calculator using combining comparators */
+// var yourName = prompt("Enter your name");
+// var partnerName = prompt("Enter your partner name");
+// var loveCalculate = Math.random();
+// var loveCalculate = Math.round(loveCalculate * 100) + 1;
 
-}if(loveCalculate <= 30)
- {
-    alert(yourName + " 👍" + partnerName+ " love matches " + loveCalculate);
+// if (loveCalculate > 75) {
+//     alert(yourName + "  💖 "+ partnerName+ " love matches wow super " + loveCalculate);
+// } 
+// if(loveCalculate > 30 && loveCalculate <= 75){
+//     alert(yourName + " 😍" + partnerName+ " love matches " + loveCalculate);
+
+// }if(loveCalculate <= 30)
+//  {
+//     alert(yourName + " 👍" + partnerName+ " love matches " + loveCalculate);
+// }
+
+
+
+
+/* BMI Calculator */
+function bmiCalculator(weight, height){
+    //var bmi = weight / (height * height);
+    var bmi = weight / (Math.pow(height, 2));
+    return Math.round(bmi);
+  }
+  var bmi = bmiCalculator(80, 1.7);
+
+  if(bmi <= 18.5){
+    console.log(" Your BMI is " + bmi + ", so you are underweight.");
+  }
+  if(bmi > 18.5 && bmi <= 24.9){
+    console.log(" Your BMI is " + bmi + ", so you have a normal weight.");
 }
+if(bmi > 24.9){
+    console.log(" Your BMI is " + bmi + ", so you are overweight.");
+
+}
+
+
+/* Leap year calculation */
+
+function isLeap(year){
+  if(year % 4 === 0){
+if(year % 100 === 0){
+if(year % 400 === 0){
+return "Leap year.";
+}else{
+  return "Not leap year.";
+}
+}else{
+  return "Leap year.";
+}
+  }else{
+    return "Not leap year.";
+  }
+}
+console.log(isLeap(2012))
