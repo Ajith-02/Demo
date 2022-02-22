@@ -204,3 +204,26 @@ while (numberOfBottles >= 0) {
     console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
     numberOfBottles--;
   }
+
+
+
+  /* for loop fizzBuzz */
+var output = [];
+
+function fizzBuzz(){
+  for(count = 1; count <= 100; count++){
+  if(count % 3 === 0 && count % 5 === 0 ){
+    output.push("FizzBuzz");
+  }else if(count % 3 === 0){
+    output.push("Fizz");
+  }else if(count % 5 === 0){
+    output.push("Buzz");
+  }else{
+    output.push(count);
+  }
+
+}
+  console.log(output);
+
+}
+fizzBuzz()
