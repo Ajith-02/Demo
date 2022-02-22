@@ -103,3 +103,15 @@ return "Leap year.";
   }
 }
 console.log(isLeap(2012))
+
+
+/* Array */
+var guestList = ["Ajith", "Sarathy", "Aravind", "Krishnan"];
+
+var guestName = prompt("Enter Guest name");
+
+if (guestList.includes(guestName)){
+  alert("Welcome");
+}else{
+  alert("May be next time");
+}
