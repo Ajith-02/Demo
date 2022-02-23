@@ -74,4 +74,8 @@ body {
   background-color: yellow;
 }
 
-
+.huge{
+  font-size: 10rem;
+  color: #8bdb81;
+  font-weight: bold;
+}

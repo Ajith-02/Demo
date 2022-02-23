@@ -1,4 +1,34 @@
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1 id="title">Hello</h1>
+    <input type="checkbox">
+    <button class="btn">Click Me</button>
+    <ul id="list">
+        <li class="item">
+            <a href="https://www.google.com">Google</a>
+        </li>
+        <li class="item">Second</li>
+    </ul>
+
+    <script src="DOM.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- Introduction to DOM -->
+
+<!-- <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +38,34 @@
 </head>
 <body>
 
-    <!-- inline js, it is hard to debug and bad practice -->
-    <!-- <body onload="alert('Hello')"> -->
+    inline js, it is hard to debug and bad practice
+    <body onload="alert('Hello')">
     
         <h1>Hello</h1>
 
 
-<!-- internal js, use script tag -->
+internal js, use script tag -->
 <!-- <script>
     alert("hello")
 </script> -->
 
 
-<input type="checkbox">
+<!-- <input type="checkbox">
 <button style=":active: color:green">Click Me</button>
 <ul>
     <li class="list">
         <a href="https://www.google.com">Google</a></li>
     <li class="list">Second</li>
 </ul>
-<!-- linking js -->
+linking js -->
 <!-- add the script just before body ends -->
-<script src="DOM.js"></script>
+<!-- <script src="DOM.js"></script>
 </body>
-</html>
+</html> -->
 
 
+
+<!-- check in consol for Introduction to DOM -->
 
 <!-- document;
 document.firstElementChild;
@@ -48,3 +80,7 @@ heading.style.color= "Green";
 <!-- it is inside the entire document
 document.querySelector("input").click(); 
 -->
+
+
+<!-- in li changing the Second into Ajith
+document.firstElementChild.lastElementChild.lastElementChild.lastElementChild.innerHTML = "Ajith" -->
