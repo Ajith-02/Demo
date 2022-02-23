@@ -63,12 +63,15 @@ console.log(document.querySelector("h1").classList.add("huge"))
 document.querySelector("h1").innerHTML = "<em>Hello</em>";
 
 /* HTML Element Attribute */
+//shows anchor tag
 console.log(document.querySelector("a"));
 
+//shows the attribute of the anchor tag "href"
 console.log(document.querySelector("a").attributes);
-
+//it will show what is in the attribute
 console.log(document.querySelector("a").getAttribute("href"));
-
+//to change the value in the href
+//to change two properties needed "href" and what we going to change "https://www.facebook.com"
 console.log(document.querySelector("a").setAttribute("href", "https://www.facebook.com"));
 
 
