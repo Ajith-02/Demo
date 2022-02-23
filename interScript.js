@@ -227,3 +227,23 @@ function fizzBuzz(){
 
 }
 fizzBuzz()
+
+
+function fibonacciGenerator(n){
+  var op = [];
+  if(n===1){
+    op=[0];
+  }
+  else if(n===0){
+    op=[0,1];
+  }
+  else{
+    op=[0,1];
+    for(var i=2; i<n; i++){
+      op.push(op[op.length - 2] + op[op.length - 1]);
+    }
+  }return op;
+
+}
+ op = fibonacciGenerator(100)
+console.log(op);
