@@ -28,8 +28,8 @@ var name = "abc";
 // var tweetCount = tweet.length;
 // alert("you have written "+ tweetCount + " characters, remaining is "+ (100 - tweetCount)+ " characters");
 
-var name = "abcd";
-console.log(name.slice(2, 3));
+var name1 = "abcd";
+console.log(name1.slice(2, 3));
 
 // var tweet = prompt("enter tweet");
 // var tweetCount = tweet.slice(0,10);
