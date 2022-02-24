@@ -51,7 +51,7 @@ console.log(name1.slice(2, 3));
 // alert("Human age of your dog is "+ humanAge);
 
 var num = 12;
-var ans = (num /= 3);
+var ans = (num / 3);
 console.log(ans);
 
 var mod = 16 % 4;
@@ -90,11 +90,11 @@ function getOil(bottles) {
 }
 getOil(2);
 
-function getBottles(money) {
-  var noOfBottles = Math.round(money / 5);
-  console.log("No of bottles " + noOfBottles);
+function getBottle(moneys) {
+  var noOfBottle = Math.round(moneys / 5);
+  console.log("No of bottles " + noOfBottle);
 }
-getBottles(54);
+getBottle(54);
 
 function lifeInWeeks(age) {
   var days = (365 * 90) - (365 * age);
@@ -117,8 +117,10 @@ function lifeInWeek(age) {
   }
   lifeInWeek(27);
 
+
+  // function output and return
   function getBalance(money){
-      return money % 1.5;
+      return money % 5;
   }
   var balance = getBalance(50);
   console.log(balance);
