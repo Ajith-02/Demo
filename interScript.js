@@ -23,16 +23,16 @@ var loveCalculate = Math.round(loveCalculate * 100) + 1;
 alert(yourName + "  💖 "+ partnerName+ " love matches " + loveCalculate);
 
 /* love calculator using condition */
-// var yourName = prompt("Enter your name");
-// var partnerName = prompt("Enter your partner name");
-// var loveCalculate = Math.random();
-// var loveCalculate = Math.round(loveCalculate * 100) + 1;
+var yourName = prompt("Enter your name");
+var partnerName = prompt("Enter your partner name");
+var loveCalculate = Math.random();
+var loveCalculate = Math.round(loveCalculate * 100) + 1;
 
-// if (loveCalculate > 75) {
-//     alert(yourName + "  💖 "+ partnerName+ " love matches wow super " + loveCalculate);
-// } else {
-//     alert(yourName + " " + partnerName+ " love matches " + loveCalculate);
-// }
+if (loveCalculate > 75) {
+    alert(yourName + "  💖 "+ partnerName+ " love matches wow super " + loveCalculate);
+} else {
+    alert(yourName + " " + partnerName+ " love matches " + loveCalculate);
+}
 
 /* checking equality */
 var a = 1;
