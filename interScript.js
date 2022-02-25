@@ -16,11 +16,11 @@ var n = Math.round(n * 6) + 1;
 console.log(n);
 
 /* love calculator */
-// var yourName = prompt("Enter your name");
-// var partnerName = prompt("Enter your partner name");
-// var loveCalculate = Math.random();
-// var loveCalculate = Math.round(loveCalculate * 100) + 1;
-// alert(yourName + "  💖 "+ partnerName+ " love matches " + loveCalculate);
+var yourName = prompt("Enter your name");
+var partnerName = prompt("Enter your partner name");
+var loveCalculate = Math.random();
+var loveCalculate = Math.round(loveCalculate * 100) + 1;
+alert(yourName + "  💖 "+ partnerName+ " love matches " + loveCalculate);
 
 /* love calculator using condition */
 // var yourName = prompt("Enter your name");
